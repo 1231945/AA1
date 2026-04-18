@@ -1,11 +1,11 @@
-/* Global Styles */
+/* general style */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and Layout */
+/* body style */
 body {
     font-family: Poppins, sans-serif;
     background: whitesmoke;
@@ -18,7 +18,7 @@ body {
     background-image: linear-gradient(blue, white);
 }
 
-/* Form Styles */
+/* form styles */
 #signup-form {
     background: white;
     padding: 40px;
@@ -28,7 +28,7 @@ body {
     border: 1px solid lightgray;
 }
 
-/* Label Styles */
+/* label styles */
 label {
     display: block;
     margin-top: 20px;
@@ -38,7 +38,7 @@ label {
     font-size: 14px;
 }
 
-/* Input Styles */
+/* input styles */
 input[type="text"],
 input[type="email"],
 input[type="date"],
@@ -58,7 +58,7 @@ input[type="password"]:focus {
     border-color: blue;
 }
 
-/* Radio Button Styles */
+/* radio button styles */
 input[type="radio"] {
     margin-right: 8px;
     margin-top: 10px;
@@ -72,7 +72,7 @@ input[type="radio"] + label {
     font-weight: normal;
 }
 
-/* Error and Success Messages */
+/* error and success messages */
 span {
     display: block;
     margin-top: 5px;
@@ -102,7 +102,7 @@ span {
     font-size: 16px;
 }
 
-/* Button Styles */
+/* button styles */
 button {
     width: 100%;
     padding: 12px;
