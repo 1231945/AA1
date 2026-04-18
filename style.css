@@ -1,0 +1,157 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Poppins, sans-serif;
+    background: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px 20px;
+    color: black;
+    background-image: linear-gradient(blue, white);
+}
+
+/* Form Styles */
+#signup-form {
+    background: white;
+    padding: 40px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid lightgray;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: dimgray;
+    font-size: 14px;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: blue;
+}
+
+/* Radio Button Styles */
+input[type="radio"] {
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+/* Error and Success Messages */
+span {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    min-height: 20px;
+}
+
+#name-error,
+#bdate-error,
+#sex-error,
+#email-error,
+#username-error,
+#password-error,
+#confirmPassword-error,
+#interest-error,
+#comfort-error,
+#awareness-error {
+    color: red;
+    font-weight: bold;
+}
+
+#success {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 30px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: navy;
+    background-color: yellow;
+    color: black;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: blue;
+    padding: 20px;
+}
+
+a:hover {
+    color: navy;
+    background-color: yellow;
+}
+
+a:active {
+    color: black;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: blue;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 14px;
+}

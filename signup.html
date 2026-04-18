@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h6>UNDERSTANDING AUTISM IN SOCIETY: DISABILITY OR DIFFERENT ABILITY? - Sign Up Form</h6>
+    </header>
+    <form id="signup-form" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Full Name">
+        <span id="name-error"></span>
+
+        <label for="bdate">Birthdate:</label>
+        <input type="date" id="bdate" placeholder="Birthdate">
+        <span id="bdate-error"></span>
+
+        <label for="sex">Sex:</label>
+        <label>
+            <input type="radio" id="male" name="sex" value="male">
+            Male
+        </label>
+        <label>
+            <input type="radio" id="female" name="sex" value="female">
+            Female
+        </label>
+        <span id="sex-error"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email">
+        <span id="email-error"></span>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Username">
+        <span id="username-error"></span>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password must be at least 10 characters long, has an Upper and Lowercase letter, and 1 digit.">
+        <span id="password-error"></span>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <span id="confirmPassword-error"></span>
+
+        <label>Which Aspect(s) of Autism are you interested in learning more about?</label>
+        <label>
+            <input type="checkbox" name="i" value="1">
+            Early Signs and Diagnosis
+        </label>
+        <label>
+            <input type="checkbox" name="i" value="2">
+            Sensory Challenges
+        </label>
+        <label>
+            <input type="checkbox" name="i" value="3">
+            Support and Therapy options
+        </label>
+        <span id="interest-error"></span>
+
+        <label for="comfort">How comfortable are you when around autistic individuals?</label>
+        <select name="comf" id="comfort">
+            <option value="">Comfort Level:</option>
+            <option value="1">Very Uncomfortable</option>
+            <option value="2">Uncomfortable</option>
+            <option value="3">Neutral</option>
+            <option value="4">Comfortable</option>
+            <option value="5">Very Comfortable</option>
+        </select>
+        <span id="comfort-error"></span>
+
+        <label>How would you describe your current awareness about autism?</label>
+        <label>
+            <input type="radio" name="awareness" value="high">
+            High
+        </label>
+        <label>
+            <input type="radio" name="awareness" value="average">
+            Average
+        </label>
+        <label>
+            <input type="radio" name="awareness" value="low">
+            Low
+        </label>
+        <span id="awareness-error"></span>
+
+        <button type="submit">Sign Up<br></button>
+        <a href="https://1231945.github.io/final/index.html" target="_blank">Link to the Main Site</a>
+
+        <span id="success"></span>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
