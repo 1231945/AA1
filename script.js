@@ -35,7 +35,7 @@ function validateForm() {
         }
     }
 
-    // Personal Info Validation
+    // Personal info check
     if (name.trim() === "") {
         document.getElementById("name-error").innerHTML = "Name is required.";
         isValid = false;
@@ -67,7 +67,7 @@ function validateForm() {
         isValid = false;
     }
 
-    // Account Details Validation
+    // Account details check
     if (email === "") {
         document.getElementById("email-error").innerHTML = "Email is required.";
         isValid = false;
